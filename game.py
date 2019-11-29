@@ -7,6 +7,18 @@ level = 0
 
 print("Welcome to the game 'Who wants to be a millionaire?'\nLet's start the game!")
 
+def lifeline_50(question):
+  
+    counter = 0
+    while counter < 2:
+        num = 1
+        if q[num] != q[5] and q[num] != ' ':
+            q[num] = ' '
+            counter += 1
+        else:
+            num = num + 1
+    
+
 while level < 4:
 
     q = question_bank.get_question(level)
@@ -18,7 +30,10 @@ while level < 4:
     print("D:", q[4])
 
     user_answer = input("Please enter your choice: ")
-    
+        
+    if user_answer == '50':
+        lifeline_50(q)
+        
     if user_answer == 'A' or user_answer == 'a':
         if q[1] == q[5]:
             print("Your answer is correct! You won: ", prize[level])
@@ -50,6 +65,15 @@ while level < 4:
         else:
             print("Game over! Try once again.")
             level = 0
+
+    elif user_answer == '50':
+        lifeline_50()
+
+    elif user_answer == 'call':
+    	pass
+
+    elif user_answer == 'audience':
+    	pass
 
     else:
         print("Please enter A, B, C or D")
