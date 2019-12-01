@@ -1,24 +1,24 @@
 import random
 
 #level0
-q00 = ['Your favorite programming language:', 'python', 'cobra', 'go', 'c++', 'python']
+q00 = ['Самая высокая гора в Украине:', 'Говерла', 'Пикуй', 'Ай-Петри', 'Казбек', 'Говерла']
 q01 = ['We live on:', 'Mars', 'Sun', 'Earth', 'Jupiter', 'Earth']
-q02 = ['The most popular website', 'Google', 'Goggles', 'Googel', 'Gugil', 'Google']
+q02 = ['Самый популярный кинотеатр', 'Орбита Кино', 'Юпитер', 'Планета Кино', 'Мультикекс', 'Планета Кино']
 
 #level1
-q10 = ['Level 1 question', 'this', 'that', 'go', 'c++', 'this']
+q10 = ['Кавун це', 'Ягода', 'Фрукт', 'Овоч', 'Мясо', 'Ягода']
 q11 = ['We live here:', 'Ukraine', 'France', 'Japan', 'USA', 'Ukraine']
 q12 = ['The most popular website in Ukraine', 'Rozetka', 'OLX', 'Prom', 'Allo', 'OLX']
 
 #level2
 q20 = ['Your favorite programming language:', 'python', 'cobra', 'go', 'c++', 'python']
-q21 = ['We live on:', 'Mars', 'Sun', 'Earth', 'Jupiter', 'Earth']
+q21 = ['Амундсен підкорив', 'Південний полюс', 'Північний полюс', 'Еверест', 'Маріанську западину', 'Південний полюс']
 q22 = ['The most popular website', 'Google', 'Goggles', 'Googel', 'Gugil', 'Google']
 
 #level3
-q30 = ['Your favorite programming language:', 'python', 'cobra', 'go', 'c++', 'python']
-q31 = ['We live on:', 'Mars', 'Sun', 'Earth', 'Jupiter', 'Earth']
-q32 = ['The most popular website', 'Google', 'Goggles', 'Googel', 'Gugil', 'Google']
+q30 = ['4 питання українською', 'тестінг', 'мастерінг', 'фіча', 'буква ї', 'тестінг']
+q31 = ['4 вопрос на русском', 'Киев', 'Львов', 'Харьков', 'Одесса', 'Киев']
+q32 = ['4 question in English', 'London', 'Berlin', 'Oslo', 'Warsaw', 'London']
 
 
 def get_question(level):
